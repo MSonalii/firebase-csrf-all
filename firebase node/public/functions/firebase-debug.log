@@ -1,0 +1,169 @@
+[debug] [2018-08-15T07:55:24.203Z] ----------------------------------------------------------------------
+[debug] [2018-08-15T07:55:24.203Z] Command:       C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\firebase-tools\bin\firebase serve
+[debug] [2018-08-15T07:55:24.203Z] CLI Version:   4.0.2
+[debug] [2018-08-15T07:55:24.203Z] Platform:      win32
+[debug] [2018-08-15T07:55:24.203Z] Node Version:  v8.11.0
+[debug] [2018-08-15T07:55:24.207Z] Time:          Wed Aug 15 2018 13:25:24 GMT+0530 (India Standard Time)
+[debug] [2018-08-15T07:55:24.207Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-08-15T07:55:24.223Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-08-15T07:55:24.223Z] > authorizing via signed-in user
+[debug] [2018-08-15T07:55:24.227Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/secondproject-3558b  
+  
+ Wed Aug 15 2018 13:25:24 GMT+0530 (India Standard Time)
+[debug] [2018-08-15T07:55:26.848Z] <<< HTTP RESPONSE 200
+[debug] [2018-08-15T07:55:26.850Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/secondproject-3558b/tokens  
+  
+ Wed Aug 15 2018 13:25:26 GMT+0530 (India Standard Time)
+[debug] [2018-08-15T07:55:28.206Z] <<< HTTP RESPONSE 200
+[debug] [2018-08-15T07:55:28.210Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/secondproject-3558b  
+  
+ Wed Aug 15 2018 13:25:28 GMT+0530 (India Standard Time)
+[debug] [2018-08-15T07:55:30.158Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'E:\firebase node\public'...
+[info] 
+[warn] !  functions: Cannot start emulator. Error: Cannot find module '@google-cloud/functions-emulator/src/config'
+[debug] [2018-08-15T07:55:30.176Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/651145446950/clients/_:getWebAppConfig  
+  
+ Wed Aug 15 2018 13:25:30 GMT+0530 (India Standard Time)
+[debug] [2018-08-15T07:55:31.545Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+
+[debug] [2018-08-15T07:56:33.213Z] ----------------------------------------------------------------------
+[debug] [2018-08-15T07:56:33.216Z] Command:       C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\firebase-tools\bin\firebase serve
+[debug] [2018-08-15T07:56:33.216Z] CLI Version:   4.0.2
+[debug] [2018-08-15T07:56:33.216Z] Platform:      win32
+[debug] [2018-08-15T07:56:33.216Z] Node Version:  v8.11.0
+[debug] [2018-08-15T07:56:33.217Z] Time:          Wed Aug 15 2018 13:26:33 GMT+0530 (India Standard Time)
+[debug] [2018-08-15T07:56:33.217Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-08-15T07:56:33.235Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-08-15T07:56:33.235Z] > authorizing via signed-in user
+[debug] [2018-08-15T07:56:33.235Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/secondproject-3558b  
+  
+ Wed Aug 15 2018 13:26:33 GMT+0530 (India Standard Time)
+[debug] [2018-08-15T07:56:35.088Z] <<< HTTP RESPONSE 200
+[debug] [2018-08-15T07:56:35.092Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/secondproject-3558b/tokens  
+  
+ Wed Aug 15 2018 13:26:35 GMT+0530 (India Standard Time)
+[debug] [2018-08-15T07:56:36.671Z] <<< HTTP RESPONSE 200
+[debug] [2018-08-15T07:56:36.671Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/secondproject-3558b  
+  
+ Wed Aug 15 2018 13:26:36 GMT+0530 (India Standard Time)
+[debug] [2018-08-15T07:56:38.720Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'E:\firebase node\public'...
+[info] 
+[warn] !  functions: Cannot start emulator. Error: Cannot find module '@google-cloud/functions-emulator/src/config'
+[debug] [2018-08-15T07:56:38.744Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/651145446950/clients/_:getWebAppConfig  
+  
+ Wed Aug 15 2018 13:26:38 GMT+0530 (India Standard Time)
+[debug] [2018-08-15T07:56:39.945Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+
+[info] [hosting] Rewriting / to local function app
+[info] [hosting] Rewriting / to local function app
+[debug] [2018-08-15T08:03:55.928Z] ----------------------------------------------------------------------
+[debug] [2018-08-15T08:03:55.932Z] Command:       C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\firebase-tools\bin\firebase serve --only functions,hosting
+[debug] [2018-08-15T08:03:55.932Z] CLI Version:   4.0.2
+[debug] [2018-08-15T08:03:55.932Z] Platform:      win32
+[debug] [2018-08-15T08:03:55.932Z] Node Version:  v8.11.0
+[debug] [2018-08-15T08:03:55.932Z] Time:          Wed Aug 15 2018 13:33:55 GMT+0530 (India Standard Time)
+[debug] [2018-08-15T08:03:55.932Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-08-15T08:03:55.948Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-08-15T08:03:55.952Z] > authorizing via signed-in user
+[debug] [2018-08-15T08:03:55.952Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/secondproject-3558b  
+  
+ Wed Aug 15 2018 13:33:55 GMT+0530 (India Standard Time)
+[debug] [2018-08-15T08:03:58.225Z] <<< HTTP RESPONSE 200
+[debug] [2018-08-15T08:03:58.225Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/secondproject-3558b/tokens  
+  
+ Wed Aug 15 2018 13:33:58 GMT+0530 (India Standard Time)
+[debug] [2018-08-15T08:03:59.648Z] <<< HTTP RESPONSE 200
+[debug] [2018-08-15T08:03:59.652Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/secondproject-3558b  
+  
+ Wed Aug 15 2018 13:33:59 GMT+0530 (India Standard Time)
+[debug] [2018-08-15T08:04:02.107Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'E:\firebase node\public'...
+[info] 
+[warn] !  functions: Cannot start emulator. Error: Cannot find module '@google-cloud/functions-emulator/src/config'
+[debug] [2018-08-15T08:04:02.134Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/651145446950/clients/_:getWebAppConfig  
+  
+ Wed Aug 15 2018 13:34:02 GMT+0530 (India Standard Time)
+[debug] [2018-08-15T08:04:04.872Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+
+[info] [hosting] Rewriting /home to local function app
+[debug] [2018-08-15T08:07:41.250Z] ----------------------------------------------------------------------
+[debug] [2018-08-15T08:07:41.254Z] Command:       C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\firebase-tools\bin\firebase serve
+[debug] [2018-08-15T08:07:41.254Z] CLI Version:   4.0.2
+[debug] [2018-08-15T08:07:41.254Z] Platform:      win32
+[debug] [2018-08-15T08:07:41.254Z] Node Version:  v8.11.0
+[debug] [2018-08-15T08:07:41.254Z] Time:          Wed Aug 15 2018 13:37:41 GMT+0530 (India Standard Time)
+[debug] [2018-08-15T08:07:41.254Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-08-15T08:07:41.270Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-08-15T08:07:41.270Z] > authorizing via signed-in user
+[debug] [2018-08-15T08:07:41.270Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/secondproject-3558b  
+  
+ Wed Aug 15 2018 13:37:41 GMT+0530 (India Standard Time)
+[debug] [2018-08-15T08:07:43.098Z] <<< HTTP RESPONSE 200
+[debug] [2018-08-15T08:07:43.100Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/secondproject-3558b/tokens  
+  
+ Wed Aug 15 2018 13:37:43 GMT+0530 (India Standard Time)
+[debug] [2018-08-15T08:07:44.517Z] <<< HTTP RESPONSE 200
+[debug] [2018-08-15T08:07:44.521Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/secondproject-3558b  
+  
+ Wed Aug 15 2018 13:37:44 GMT+0530 (India Standard Time)
+[debug] [2018-08-15T08:07:46.747Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'E:\firebase node\public'...
+[info] 
+[warn] !  functions: Cannot start emulator. Error: Cannot find module '@google-cloud/functions-emulator/src/config'
+[debug] [2018-08-15T08:07:46.775Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/651145446950/clients/_:getWebAppConfig  
+  
+ Wed Aug 15 2018 13:37:46 GMT+0530 (India Standard Time)
+[debug] [2018-08-15T08:07:48.408Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+
+[info] [hosting] Rewriting /home to local function app
+[debug] [2018-08-15T08:11:11.926Z] ----------------------------------------------------------------------
+[debug] [2018-08-15T08:11:11.926Z] Command:       C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\firebase-tools\bin\firebase serve
+[debug] [2018-08-15T08:11:11.926Z] CLI Version:   4.0.2
+[debug] [2018-08-15T08:11:11.926Z] Platform:      win32
+[debug] [2018-08-15T08:11:11.926Z] Node Version:  v8.11.0
+[debug] [2018-08-15T08:11:11.926Z] Time:          Wed Aug 15 2018 13:41:11 GMT+0530 (India Standard Time)
+[debug] [2018-08-15T08:11:11.926Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-08-15T08:11:11.946Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-08-15T08:11:11.946Z] > authorizing via signed-in user
+[debug] [2018-08-15T08:11:11.946Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/secondproject-3558b  
+  
+ Wed Aug 15 2018 13:41:11 GMT+0530 (India Standard Time)
+[debug] [2018-08-15T08:11:16.920Z] <<< HTTP RESPONSE 200
+[debug] [2018-08-15T08:11:16.924Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/secondproject-3558b/tokens  
+  
+ Wed Aug 15 2018 13:41:16 GMT+0530 (India Standard Time)
+[debug] [2018-08-15T08:11:18.209Z] <<< HTTP RESPONSE 200
+[debug] [2018-08-15T08:11:18.213Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/secondproject-3558b  
+  
+ Wed Aug 15 2018 13:41:18 GMT+0530 (India Standard Time)
+[debug] [2018-08-15T08:11:20.785Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'E:\firebase node\public'...
+[info] 
+[warn] !  functions: Cannot start emulator. Error: Cannot find module '@google-cloud/functions-emulator/src/config'
+[debug] [2018-08-15T08:11:20.805Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/651145446950/clients/_:getWebAppConfig  
+  
+ Wed Aug 15 2018 13:41:20 GMT+0530 (India Standard Time)
+[debug] [2018-08-15T08:11:22.217Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+
